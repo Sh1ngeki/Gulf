@@ -23,7 +23,7 @@ cur.execute('''CREATE TABLE IF NOT EXISTS Petrol
   Fuel_Gas REAL
 )''')
 
-file = open('Petrol.csv', 'w', newline='', encoding='UTF-8-sig')
+file = open('Petrol.csv', 'w', newline='\n', encoding='UTF-8-sig')
 csv_obj = csv.writer(file)
 csv_obj.writerow(['თარიღი', 'G-Force სუპერი', 'G-Force პრემიუმი', 'G-Force ევრო რეგულარი', 'ევრო რეგულარი',
                   'G-Force ევრო დიზელი', 'ევრო დიზელი', 'გაზი'])
