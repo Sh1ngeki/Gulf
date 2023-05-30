@@ -34,8 +34,8 @@
 - Changes made to the SQLite database are committed using conn.commit().
 - The connection to the SQLite database is closed using conn.close().
 
-The code scrapes the fuel price data from the website, saves it in both a SQLite database and a CSV file, and repeats this process for multiple pages. 
+The code scrapes the fuel price data from the website, saves it in both a SQLite database and a CSV file, and repeats this process for multiple pages.
 
-![gulf](https://github.com/Sh1ngeki/WebParsingGulf/assets/115181439/49da7d47-73e9-4e04-b23d-e186861880cb)
+![g](https://github.com/Sh1ngeki/Gulf/assets/115181439/173dd5f2-2d54-4b49-895e-02ff38a74089)
 
 
